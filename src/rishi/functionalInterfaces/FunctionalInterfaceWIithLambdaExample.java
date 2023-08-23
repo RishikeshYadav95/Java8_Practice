@@ -16,6 +16,8 @@ public class FunctionalInterfaceWIithLambdaExample {
 		System.out.print("Select shape (1:Rectangle, 2:Square): ");
 		int choice = sc.nextInt();
 		if(choice == 1) {
+
+			//The abstract method area is defined to return area for a rectangle.
 			Shape rectangle = () -> {
 				System.out.print("Length of rectangle: ");
 				int a = sc.nextInt();
@@ -26,6 +28,8 @@ public class FunctionalInterfaceWIithLambdaExample {
 			rectangle.area();
 		}
 		else if(choice == 2) {
+
+			//The abstract method area is defined to return area for a square.
 			Shape square = () -> {
 				System.out.print("Length of square: ");
 				int a = sc.nextInt();
