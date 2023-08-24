@@ -4,6 +4,8 @@ interface Shape{
 	void draw();
 }
 
+//We dont have the need to write the below Rectangle, Circel and Square class seperately.
+//We can simply achieve this by lambda expressions as done below in main method, thus making the below three classes moot.
 class Rectangle implements Shape{
 
 	@Override
