@@ -17,7 +17,8 @@ class AddableImpl implements Addable{
 public class LambdaParameter {
 	
 	public static void main(String[] args) {
-		
+
+		//This is how you call a parameterized Lambda Expression.
 		Addable addition = (a, b) -> {return a+b;};
 		System.out.println(addition.addition(4, 5));
 		Addable subtraction = (a, b) -> {
